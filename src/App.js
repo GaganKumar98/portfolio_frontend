@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
+import "./App.scss";
 
 import { Navbar } from "./Components/Index";
 import {
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       {/* App */}
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
       <About />
       <Work />
